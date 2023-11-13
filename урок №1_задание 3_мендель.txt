@@ -1,0 +1,8 @@
+print('3, 5, 7')
+raw_input = input()
+splitted_input = input.split()
+parsed_input = list()
+for raw in splitted_input:
+    parsed_input.append(int(raw))
+parsed_input.sort()
+print(f'Your result: {parsed_input}')
