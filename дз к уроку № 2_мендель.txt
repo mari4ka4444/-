@@ -1,0 +1,22 @@
+import math
+print ("a * x**2 + b*x + c = 0:")
+a * x**2 + b*x + c = 0:
+a = float(input("a = "))
+b = float(input("b = "))
+c = float(input("c = "))
+x1 = float(input("x1 = "))
+x2 = float(input("x2 = "))
+d = float(input("d = "))
+discr = b**2 - 4 * a * c
+print("Дискриминант D = %.2f" % discr)
+Дискриминант D = 0.00
+if discr > 0:
+    x1 = (-b + math.sqrt(discr)) / (2 * a)
+    x2 = (-b - math.sqrt(discr)) / (2 * a)
+    print("x1 = %.2f \nx2 = %.2f" % (x1, x2))
+elif discr == 0:
+    x = -b / (2 * a)
+    print("x = %.2f" % x)
+else:
+    print("Решений нет")
+x = -1.00
