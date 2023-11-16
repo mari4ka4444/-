@@ -1,5 +1,7 @@
-
-def multiply(a, b):
-    return a * b
- ## a, b = map(float, input(a * b).split())
-print(f'Product of {a} and {b} is {multiply(a, b)}')
+a = 20
+b = 10
+def multiply (a, b):
+    с = a * b
+    return с
+     ## a, b, с = map(float, input().split()) 
+print(f'Product of {a} and {b} is {multiply(a , b)}')
